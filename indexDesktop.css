@@ -209,8 +209,16 @@ body{
     text-align: center;
     font-size: 180%;
 }
-
-
+.bold-text{
+    font-weight: bold;
+}
+.welcome-content{
+    text-align: center;
+}
+.text-align-left{
+    margin-top: -1%;
+    text-align: left;
+}
 .topics-covered{
     margin: -2%;
     width: 100%;
@@ -243,6 +251,32 @@ body{
     padding: 4%;
 }
 .topics-covered a:hover{
+    color: #000;
+}
+
+.display-none{
+    display: none;
+}
+.display-on-click li{
+    margin: 0%;
+    padding: 10px 0px 10px 10px;
+    border-style: none;    
+}
+.display-on-click .inner{
+    width: 80%;
+    height: 1px;
+    margin: 0px auto;
+    border-top: 1px solid;
+}
+.display-on-click a{
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 4%;
+}
+.display-on-click a:hover{
     color: #000;
 }
 
