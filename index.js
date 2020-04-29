@@ -30,7 +30,6 @@ function unfade(element,delay) {
 function changeClass(element){
     var elementToChange = document.getElementById(element+"-show")
     var dropdown = document.getElementById(element+"-dropdown")
-    element.style.opacity = op;
 
     if (elementToChange.className === "display-none"){
         elementToChange.className = "display-on-click"
