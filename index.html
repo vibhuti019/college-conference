@@ -5,11 +5,12 @@
     <link href=".\indexDesktop.css" rel="stylesheet">
     <title>FITE 2020</title>
     <link rel="icon" type="image/png" href=".\logo-6-removebg-preview(1).png">
+   
 </head>
-<body onclick="changeClass(this.class);">
+<body onload="StartLoad()" id="body">
     <script type="text/javascript" src="index.js"></script>
     
-    <div class="header">
+    <div class="header" id="header">
 
 
 
@@ -38,7 +39,7 @@
     <img class="icon-abes-mobile" src="logo-6-removebg-preview(1).png" alt="Conference">
 
 
-    <div class="notification-imp">
+    <div class="notification-imp" id="notification-imp">
         <p>
             You All Are Invited In The Conference
             <a id="important" >
@@ -47,43 +48,43 @@
         </p>
         
     </div>
-    <div class="notification">
+    <div class="notification" id="notification">
         <a href="#">
             Elsevier editorial system is now open for MATERIAL TODAY Last date of paper submission - 28th April 2020.
         </a>
     </div>
-    <div class="main-site">
+    <div class="main-site" id="main-site">
         
         <div class="navigation-tabs-sponsors">
             <div class="navigation-tabs">
                 <ul>
-                    <li><a href="index.html"><img src="./icons/Home.png"> Home </a></li>
+                    <li onclick="home()"><a><img src="./icons/Home.png"> Home </a></li>
                     <li><a href="https://www.abes.ac.in/"><img src="./icons/AboutAbesec.png"> About ABES EC </a></li>
                     <li><a href=""><img src="./icons/CallForPapers.png"> Call For Papers </a></li>
                     <li><a href=""><img src="./icons/Registration.png"> Registration </a></li>
                     <li><a href=""><img src="./icons/Commitee.png"> Committee </a></li>
-                    <li><a href=""><img src="./icons/Sponsorship.png"> Sponsorship </a></li>
-                    <li  id="downloads" onclick="changeClass(this.id)"><a><img src="./icons/Downloads.png"> Downloads</a>
+                    <li onclick="sponsorship()"><a><img src="./icons/Sponsorship.png"> Sponsorship </a></li>
+                    <li  id="downloads" onclick="changeClass(this.id)"><a><img src="./icons/Downloads.png"> Downloads <img id="downloads-dropdown" style="display: inline-block; float: right; height: 25px; width: 25px;transform: rotate(0deg);" src="./icons/dropdown.png"></a>
                         <ul id="downloads-show" class="display-none">
-                            <li><a href="">Copyright Form</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Registration Form</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Template for Full Length Paper</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Political Clearance from MEA</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Political Clearance from MHA</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Poster Format</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Format for PPT for Presentation</a><div class="inner">&nbsp;</div></li> 
+                            <li><a href="">Copyright Form</a> 
+                            <li><a href="">Registration Form</a> 
+                            <li><a href="">Template for Full Length Paper</a> 
+                            <li><a href="">Political Clearance from MEA</a> 
+                            <li><a href="">Political Clearance from MHA</a> 
+                            <li><a href="">Poster Format</a> 
+                            <li><a href="">Format for PPT for Presentation</a> 
                         </ul>
                     </li>
                     <li><a href=""><img src="./icons/Speakers.png"> Speakers </a></li>
                     <li><a href=""><img src="./icons/Message.png"> Messages </a></li>
-                    <li id="travel" onclick="changeClass(this.id)"><a><img src="./icons/Acomodation.png"> Travel And Accomodation</a>
+                    <li id="travel" onclick="changeClass(this.id)"><a><img src="./icons/Acomodation.png"> Travel And Accomodation<img id="travel-dropdown" style="display: inline-block; float: right; height: 25px; width: 25px;transform: rotate(0deg);" src="./icons/dropdown.png"></a>
                         <ul id="travel-show" class="display-none">
-                            <li><a href="">How To Reach</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Places of Visit</a><div class="inner">&nbsp;</div></li> 
-                            <li><a href="">Accomodation</a><div class="inner">&nbsp;</div></li>  
+                            <li><a href="">How To Reach</a> 
+                            <li><a href="">Places of Visit</a> 
+                            <li><a href="">Accomodation</a>  
                         </ul>
                     </li>
-                    <li><a href=""><img src="./icons/Contact.png"> Contact </a></li>
+                    <li onclick="contacts()"><a><img src="./icons/Contact.png"> Contact </a></li>
                 </ul>
             </div>  
             <h1 style="margin: 1%;"> Sponsors </h1>
@@ -93,155 +94,14 @@
         </div>
 
 
-        <div class="container">
-            <div>
-                <p>
-                <div class="carousel-container">
-                    <button class="image-box PrevBtn"><</button>
-                    <p id="myimage">
-                            <img src="./convocation-512x380.jpg" alt="" id="image-to-change">
-                    </p>
-                    <button class="image-box NxtBtn">></button>
-                    <div class="image-selector-container"> 
-                        <button id="1" class="image-selector" onclick="changeImage()">.</button>
-                        <button id="2" class="image-selector-active" onclick="changeImage()">.</button>
-                        <button id="3" class="image-selector" onclick="changeImage()">.</button>
-                        <button id="4" class="image-selector" onclick="changeImage()">.</button>
-                        <button id="5" class="image-selector" onclick="changeImage()">.</button>
-                    </div>                   
-                </div>
-                </p>
-            </div>
-            </br>
+        <div class="container" id="container">
             
-            <div class="content-main-site">
-                <h3>Welcome</h3>
-                <p class="welcome-content">
-                    ABES Engineering College, Ghaziabad, one of the pioneer institutions in the field of Engineering, Research and Technology is organizing International Conference on 
-                    <span class="bold-text"> 
-                        Futuristic Innovations in Technology and Engineering (FITE)-2020 
-                    </span>  
-                    The conference is sponsored by All India Council for Technical Education (AICTE).
-                    This technical conference aims at providing a platform for industry and academia to discuss various emerging trends and innovations, 
-                    share research results and new directions in upcoming areas. 
-                    FITE -2020 will provide a leading edge, scholarly forum for researchers, engineers, and students alike to share their state-of-the art
-                    research and developmental work in the broad areas. 
-                    The conference will feature a diverse mixture of interactive forums, core technical sessions of high quality cutting-edge research articles; 
-                    targeted workshops on exciting topics; 
-                    live demonstrations of pervasive computing in action; insightful keynote speeches;
-                    panel discussions from domain experts and posters of emerging ideas and achieve the following:
-                    <ul>
-                        <li>To present the ongoing researches in the field of Engineering and Business and hence to foster research relations between the Universities and the industry.</li>
-                        <li>Give participants a review of the latest and upcoming trends in the next few years.</li>
-                        <li>Provides an opportunity for researchers, academicians, scientists and professional engineers to present their work, publish their results, exchange ideas and network for scientific and industrial collaborations.</li>
-                        <li>Provide the delegates to share their new idea and the application experiences face to face.</li>
-                        <li>The conference aims to cover the following areas of business and engineering for sustainable growth but not limited to: 
-                        </li>
-                    </ul>
-                </p>
-
-                <!--<h4> Topics Covered </h4>-->
-                <div class="topics-covered">
-                    <ul>
-                        <li id="machine" onclick="changeClass(this.id)">
-                            <a>Machine Design</a>
-                            <ul id="machine-show" class="display-none">
-                                <li><a href="">CAD/CAM/CIM </a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">FEM</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Machine Design and Dynamics,</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Multi-Body Dynamics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Design of Mechanical Systems</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Fatigue Fracture & Failure Analysis</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Mechanisms</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Rotor Dynamics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Vibrations and Control</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Product Design and Development</a><div class="inner">&nbsp;</div></li> 
-                            </ul>
-                        </li>
-                        <li id="tribology" onclick="changeClass(this.id)"><a>Tribology Material</a>
-                            <ul id="tribology-show" class="display-none">
-                                <li><a href="">Bearing & Gear Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Lubricants & Additives</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Wear Mechanisms</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Surface Treatment & Coatings</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Tribo-Testing</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Condition Based Maintenance System</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Tribology in Design & Manufacturing </a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Tribology in Metalworking</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Bio Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Nano Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Nuclear Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Space Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Automotive Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Marine Tribology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Tribology in Renewable Energy</a><div class="inner">&nbsp;</div></li> 
-                            </ul>
-                        </li>
-                        <li  id="material" onclick="changeClass(this.id)"><a>Material, Manufacturing and Industrial Engineering</a>
-                            <ul id="material-show" class="display-none">
-                                <li><a href="">Supply chain</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Quality and Information management</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Human factor</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Biomechanics and Ergonomics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Marketing</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Operation research</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Layout planning</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Reverse Engineering </a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">CAD/CAM/CIM</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Reliability and Risk assessment</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Robotics and Automation</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Mechatronics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Additive and Green Manufacturing</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Materials Forming & Machining</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Micro & Nano Machining Technology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Laser Processing Technology</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Bionic Mechanisms and Bio-manufacturing</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Virtual Manufacturing and Network Manufacturing</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Sustainable Manufacturing Technologies</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Production and Operation Management</a><div class="inner">&nbsp;</div></li> 
-                            </ul>
-                        </li>
-                        <li id="thermal" onclick="changeClass(this.id)"><a>Thermal And Energy Engineering</a>
-                            <ul id="thermal-show" class="display-none">
-                                <li><a href="">Computational Fluid dynamics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Automotive and Alternate fuels</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Cryogenics technologies</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Cold Chain Technologies</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Heat – Mass Transfer</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Thermo-fluids</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Energy Conversion Systems</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Renewable Energy Technologies</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Energy and Environment</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Air Conditioning and Refrigeration</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Numerical Methods in Fluid Flow and Heat Transfer</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Transport Phenomena in Porous Media</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Engine Systems: Design and Simulation</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Active and Passive Safety</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Engine Thermodynamics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">Gas Turbines and Gas Dynamics</a><div class="inner">&nbsp;</div></li> 
-                                <li><a href="">IC Engine & Engine Technologies</a><div class="inner">&nbsp;</div></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="Speakers">
-                    <h1> Speakers </h1>
-                    <!--
-                    <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-                    <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-                    <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-                    <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-                    <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-                    <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-                    </br><a href="">See more....</a> -->
-                </div>
-            </div>
         </div>
 
 
 
 
-        <div class="left-panel">
+        <div class="left-panel" id="left-panel">
             <img src="./seminar-meeting-conference-business-motivation-512.png" alt="">
             <img src="./seminar-meeting-conference-business-motivation-512.png" alt="">
             <img src="./seminar-meeting-conference-business-motivation-512.png" alt="">
@@ -277,9 +137,9 @@
             <img src="./facebook-3-xxl.png" alt="">
             <img src="./facebook-3-xxl.png" alt="">
         </div>
+        <p class="CopyRight">Copyright; 2020 Vibhuti Singh . All Rights Reserved</p>
     </div>
     
-    <p class="CopyRight">Copyright; 2020 Vibhuti Singh . All Rights Reserved</p>
     
 </body>
 </html>

@@ -2,7 +2,6 @@ body{
     max-width: 100%;
     max-height: 100%;
     text-decoration: none;
-    background-color: aliceblue ;
     display: block;
     overflow-x: hidden;
 }
@@ -96,6 +95,7 @@ body{
     list-style: none;
 }
 .navigation-tabs li {
+    cursor: pointer;
     margin: 1%;
     border-radius: 4px;
     margin-left: -10%;
@@ -212,15 +212,11 @@ body{
 .bold-text{
     font-weight: bold;
 }
-.welcome-content{
-    text-align: center;
-}
 .text-align-left{
     margin-top: -1%;
     text-align: left;
 }
 .topics-covered{
-    margin: -2%;
     width: 100%;
     height: auto;
     text-decoration: none;
@@ -230,6 +226,7 @@ body{
     list-style: none;
 }
 .topics-covered li {
+    cursor: pointer;
     margin: 1%;
     border-radius: 4px;
     margin-left: -10%;
@@ -248,7 +245,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-weight: bolder;
-    padding: 4%;
+    padding-left: 0%;
 }
 .topics-covered a:hover{
     color: #000;
@@ -257,24 +254,22 @@ body{
 .display-none{
     display: none;
 }
-.display-on-click li{
-    margin: 0%;
-    padding: 10px 0px 10px 10px;
-    border-style: none;    
+
+.display-on-click{
+    list-style-type: none;
 }
-.display-on-click .inner{
-    width: 80%;
-    height: 1px;
-    margin: 0px auto;
-    border-top: 1px solid;
+.display-on-click li{
+    margin-left: -6.5%;
+    cursor: pointer;
+    border-style: none;    
+    background-color: inherit;
 }
 .display-on-click a{
+    margin: auto;
     text-decoration: none;
-    color: inherit;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     font-weight: bolder;
-    padding: 4%;
 }
 .display-on-click a:hover{
     color: #000;
@@ -436,3 +431,24 @@ body{
         margin: 4%;
     }
 }
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50%;
+    margin-top: 15%;
+    animation: spin 2s linear infinite;
+  }
+  @media only screen and (max-width: 600px){
+      .loader{
+        margin-left: 35%;
+        margin-top: 50%;
+      }
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
