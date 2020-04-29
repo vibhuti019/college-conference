@@ -6,11 +6,10 @@ function StartLoad(){
     <div class="loader"></div> 
     `
     setTimeout(function(){
-        var op = 0; 
-        body.style.opacity = op;
+        body.style.opacity = 0;
         body.innerHTML = mainContent
-        home()        
         unfade(body,80)
+        home()        
     }, 1200);
     
 }
