@@ -5,7 +5,9 @@ body{
     display: block;
     overflow-x: hidden;
 }
-
+ul{
+    list-style: none;
+}
 
 .header {
     width: 100%;
@@ -451,4 +453,28 @@ body{
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+
+  .sponsorship-tab-content{
+      margin-left: -5%;
+      width: 100%;
+  }
+  .sponsorship-tab-content .color-li{
+      padding: 2%;
+      background-color: #337ab7;
+      color: #fff;
+      width: 100%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
+  .sponsorship-tab-content li{
+      font-size: smaller;
+      background-color: white;
+      color: #000;
+  }
+  .sponsorship-tab-content ul{
+  }
+  .sponsorship-tab-content img{
+      height: 10px;
+      margin-right: 2%;
   }
