@@ -139,8 +139,8 @@ function contacts(){
                 ABES EC, Campus-1, 19th KM Stone, NH 24,</br> 
                 Ghaziabad, Uttar Pradesh 201009</br>
                 Phone No. 0120-4392640, 0120-4392781</br> 
-                Email: fite2020@abes.ac.in</br>
-                Website: 
+                Email: <a href="mailto:fite2020@abes.ac.in">fite2020@abes.ac.in</a></br>
+                Website: <a href="">www.fite-abes-conference.com</a></br>
             </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14007.397612433007!2d77.4455342!3d28.6342753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c35343eceb7bde0!2sABES%20Engineering%20College!5e0!3m2!1sen!2sin!4v1588179576529!5m2!1sen!2sin" width="95%" height="70%" frameborder="0" style="border:1;margin:2.5%;" allowfullscreen="" aria-hidden="false" tabindex="0">
             </iframe>
