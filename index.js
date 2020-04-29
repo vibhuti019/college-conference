@@ -5,6 +5,7 @@ function StartLoad(){
     body.innerHTML=`
     <div class="loader"></div> 
     `
+    body.style.opacity = 1;
     setTimeout(function(){
         body.style.opacity = 0;
         body.innerHTML = mainContent
