@@ -5,7 +5,9 @@ body{
     display: block;
     overflow-x: hidden;
 }
-
+p{
+    text-align: justify;
+}
 .header {
     width: 100%;
     height: auto;
