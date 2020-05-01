@@ -31,7 +31,7 @@ function unfade(element,delay) {
 function changeClass(element){
     var elementToChange = document.getElementById(element+"-show")
     var dropdown = document.getElementById(element+"-dropdown")
-
+    
     if (elementToChange.className === "display-none"){
         elementToChange.className = "display-on-click"
     }
@@ -45,7 +45,7 @@ function changeClass(element){
     else if (dropdown.style.transform === "rotate(180deg)"){
         dropdown.style.transform = "rotate(0deg)"
     }
-            
+
 }
 
 function sponsorship(){
@@ -200,10 +200,10 @@ function home(){
 
     <!--<h4> Topics Covered </h4>-->
     <div class="topics-covered">
-        <ul>
+        <ul><h3>Topics For FITE 2020</h3>
             <li id="machine" onclick="changeClass(this.id)">
                 <a>Machine Design<img id="machine-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"></a>
-                <ul id="machine-show" class="display-none">
+                <ul id="machine-show" class="display-none" style="list-style: circle; margin-left: 4%;">
                     <li><a href="">CAD/CAM/CIM </a> </li>
                     <li><a href="">FEM</a> </li>
                     <li><a href="">Machine Design and Dynamics,</a> </li> 
@@ -218,7 +218,7 @@ function home(){
             </li>
             <li id="tribology" onclick="changeClass(this.id)">
                 <a>Tribology Material<img id="tribology-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"></a>
-                <ul id="tribology-show" class="display-none">
+                <ul id="tribology-show" class="display-none" style="list-style: circle; margin-left: 4%;">
                     <li><a href="">Bearing & Gear Tribology</a> </li>
                     <li><a href="">Lubricants & Additives</a> </li>
                     <li><a href="">Wear Mechanisms</a> </li>
@@ -238,7 +238,7 @@ function home(){
             </li>
             <li  id="material" onclick="changeClass(this.id)">
             <a>Material, Manufacturing and Industrial Engineering<img id="material-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"></a>
-                <ul id="material-show" class="display-none">
+                <ul id="material-show" class="display-none" style="list-style: circle; margin-left: 4%;">
                     <li><a href="">Supply chain</a> </li>
                     <li><a href="">Quality and Information management</a> </li>
                     <li><a href="">Human factor</a> </li>
@@ -263,7 +263,7 @@ function home(){
             </li>
             <li id="thermal" onclick="changeClass(this.id)">
                 <a>Thermal And Energy Engineering<img id="thermal-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"></a>
-                <ul id="thermal-show" class="display-none">
+                <ul id="thermal-show" class="display-none" style="list-style: circle; margin-left: 4%;">
                     <li><a href="">Computational Fluid dynamics</a> </li>
                     <li><a href="">Automotive and Alternate fuels</a> </li>
                     <li><a href="">Cryogenics technologies</a> </li>

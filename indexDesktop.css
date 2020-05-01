@@ -5,9 +5,6 @@ body{
     display: block;
     overflow-x: hidden;
 }
-ul{
-    list-style: none;
-}
 
 .header {
     width: 100%;
@@ -223,9 +220,13 @@ ul{
     height: auto;
     text-decoration: none;
     float: left;
+    list-style: none;
 }
 .topics-covered ul{
     list-style: none;
+}
+.topics-covered h3{
+    text-align: center;
 }
 .topics-covered li {
     cursor: pointer;
@@ -249,6 +250,7 @@ ul{
     font-weight: bolder;
     padding-left: 0%;
 }
+
 .topics-covered a:hover{
     color: #000;
 }
