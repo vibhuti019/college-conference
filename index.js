@@ -188,7 +188,7 @@ function home(){
         targeted workshops on exciting topics; 
         live demonstrations of pervasive computing in action; insightful keynote speeches;
         panel discussions from domain experts and posters of emerging ideas and achieve the following:
-        <ul>
+        <ul class="main-site-ul">
             <li>To present the ongoing researches in the field of Engineering and Business and hence to foster research relations between the Universities and the industry.</li>
             <li>Give participants a review of the latest and upcoming trends in the next few years.</li>
             <li>Provides an opportunity for researchers, academicians, scientists and professional engineers to present their work, publish their results, exchange ideas and network for scientific and industrial collaborations.</li>

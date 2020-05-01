@@ -295,7 +295,13 @@ body{
     margin: 2%;
     
 }
+.main-site-ul li{
+    margin-left: -7%;
+}
 
+.main-site-ul{
+    margin-top: -1%;
+}
 
 
 
