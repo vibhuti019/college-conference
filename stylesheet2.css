@@ -53,3 +53,15 @@ p {
     font-weight: lighter;
     font-size: medium;
 }
+
+@media only screen and (max-width: 600px) {
+    .About-Us{
+        width: 100%;
+    }
+    .Quick-Links{
+        width: 100%;
+    }
+    .Connect-Us{
+        width: 100%;
+    }
+}
