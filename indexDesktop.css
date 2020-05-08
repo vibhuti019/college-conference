@@ -5,6 +5,9 @@ body{
     display: block;
     overflow-x: hidden;
 }
+* {
+    font-family: 'Roboto', sans-serif;
+}
 p{
     text-align: justify;
 }
@@ -75,7 +78,7 @@ p{
     padding: 4px;
     line-height: 4px;
     border-radius: 4px;
-    color:black;
+    color: #333;
     text-decoration: none;
 }
 .navigation-tabs-sponsors{
@@ -480,8 +483,8 @@ p{
   .sponsorship-tab-content li{
       font-size: smaller;
       background-color: white;
-      color: #000;
-  }
+      color: #333;
+    }
   .sponsorship-tab-content ul{
   }
   .sponsorship-tab-content img{

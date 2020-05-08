@@ -1,0 +1,56 @@
+body{
+    color: #333;
+
+}
+p {
+    color: #00000098;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.call-for-papers *{
+    text-align: justify;
+    color: #333;
+}
+.call-for-papers h3{
+    text-align: center;
+    font-size: 180%;
+}
+.call-for-papers a{
+    color: #337ab7;
+    font-weight: 600;
+    font-size: medium;
+}
+.call-for-papers table{
+    border: 1px solid #ddd;
+    margin: inherit;
+    padding: inherit;
+    border-spacing: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+.call-for-papers table td{
+    border: 1px solid #ddd;
+    padding: 1.09%;
+    font-weight: 100;
+    font-size: medium;
+}
+.call-for-papers table tr:hover{
+    font-size: medium;
+    background-color: #dddddd68;
+}
+.bold{
+    font-weight: 550;
+    font-size: medium;
+}
+.li-head{
+    text-align: center;
+    font-size: 180%;
+    font-weight: 500;
+}
+.call-for-papers li{
+    font-weight: lighter;
+    font-size: medium;
+}
