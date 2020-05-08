@@ -141,7 +141,7 @@ function contacts(){
                 Ghaziabad, Uttar Pradesh 201009</br>
                 Phone No. 0120-4392640, 0120-4392781</br> 
                 Email: <a href="mailto:fite2020@abes.ac.in">fite2020@abes.ac.in</a></br>
-                Website: <a href="">www.fite-abes-conference.com</a></br>
+                Website: <a >www.fite-abes-conference.com</a></br>
             </p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14007.397612433007!2d77.4455342!3d28.6342753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c35343eceb7bde0!2sABES%20Engineering%20College!5e0!3m2!1sen!2sin!4v1588179576529!5m2!1sen!2sin" width="95%" height="70%" frameborder="0" style="border:1;margin:2.5%;" allowfullscreen="" aria-hidden="false" tabindex="0">
             </iframe>
@@ -205,83 +205,83 @@ function home(){
             <li id="machine" onclick="changeClass(this.id)">
                 <a>Machine Design<img id="machine-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
                 <ul id="machine-show" class="display-none" style="list-style: initial; margin-left: 4%;">
-                    <li><a href="">CAD/CAM/CIM </a> </li>
-                    <li><a href="">FEM</a> </li>
-                    <li><a href="">Machine Design and Dynamics,</a> </li> 
-                    <li><a href="">Multi-Body Dynamics</a> </li>
-                    <li><a href="">Design of Mechanical Systems</a>  </li>
-                    <li><a href="">Fatigue Fracture & Failure Analysis</a> </li> 
-                    <li><a href="">Mechanisms</a> </li>
-                    <li><a href="">Rotor Dynamics</a> </li>
-                    <li><a href="">Vibrations and Control</a> </li>
-                    <li><a href="">Product Design and Development</a> </li>
+                    <li><a >CAD/CAM/CIM </a> </li>
+                    <li><a >FEM</a> </li>
+                    <li><a >Machine Design and Dynamics,</a> </li> 
+                    <li><a >Multi-Body Dynamics</a> </li>
+                    <li><a >Design of Mechanical Systems</a>  </li>
+                    <li><a >Fatigue Fracture & Failure Analysis</a> </li> 
+                    <li><a >Mechanisms</a> </li>
+                    <li><a >Rotor Dynamics</a> </li>
+                    <li><a >Vibrations and Control</a> </li>
+                    <li><a >Product Design and Development</a> </li>
                 </ul>
             </li>
             <li id="tribology" onclick="changeClass(this.id)">
                 <a>Tribology Material<img id="tribology-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
                 <ul id="tribology-show" class="display-none" style="list-style: initial; margin-left: 4%;">
-                    <li><a href="">Bearing & Gear Tribology</a> </li>
-                    <li><a href="">Lubricants & Additives</a> </li>
-                    <li><a href="">Wear Mechanisms</a> </li>
-                    <li><a href="">Surface Treatment & Coatings</a> </li>
-                    <li><a href="">Tribo-Testing</a> </li>
-                    <li><a href="">Condition Based Maintenance System</a> </li>
-                    <li><a href="">Tribology in Design & Manufacturing </a> </li>
-                    <li><a href="">Tribology in Metalworking</a> </li>
-                    <li><a href="">Bio Tribology</a> </li>
-                    <li><a href="">Nano Tribology</a> </li>
-                    <li><a href="">Nuclear Tribology</a> </li>
-                    <li><a href="">Space Tribology</a> </li>
-                    <li><a href="">Automotive Tribology</a> </li>
-                    <li><a href="">Marine Tribology</a> </li>
-                    <li><a href="">Tribology in Renewable Energy</a> </li>
+                    <li><a >Bearing & Gear Tribology</a> </li>
+                    <li><a >Lubricants & Additives</a> </li>
+                    <li><a >Wear Mechanisms</a> </li>
+                    <li><a >Surface Treatment & Coatings</a> </li>
+                    <li><a >Tribo-Testing</a> </li>
+                    <li><a >Condition Based Maintenance System</a> </li>
+                    <li><a >Tribology in Design & Manufacturing </a> </li>
+                    <li><a >Tribology in Metalworking</a> </li>
+                    <li><a >Bio Tribology</a> </li>
+                    <li><a >Nano Tribology</a> </li>
+                    <li><a >Nuclear Tribology</a> </li>
+                    <li><a >Space Tribology</a> </li>
+                    <li><a >Automotive Tribology</a> </li>
+                    <li><a >Marine Tribology</a> </li>
+                    <li><a >Tribology in Renewable Energy</a> </li>
                 </ul>
             </li>
             <li  id="material" onclick="changeClass(this.id)">
             <a>Material, Manufacturing and Industrial Engineering<img id="material-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
                 <ul id="material-show" class="display-none" style="list-style: initial; margin-left: 4%;">
-                    <li><a href="">Supply chain</a> </li>
-                    <li><a href="">Quality and Information management</a> </li>
-                    <li><a href="">Human factor</a> </li>
-                    <li><a href="">Biomechanics and Ergonomics</a> </li>
-                    <li><a href="">Marketing</a> </li>
-                    <li><a href="">Operation research</a> </li>
-                    <li><a href="">Layout planning</a> </li>
-                    <li><a href="">Reverse Engineering </a> </li>
-                    <li><a href="">CAD/CAM/CIM</a> </li>
-                    <li><a href="">Reliability and Risk assessment</a> </li>
-                    <li><a href="">Robotics and Automation</a> </li>
-                    <li><a href="">Mechatronics</a> </li>
-                    <li><a href="">Additive and Green Manufacturing</a> </li>
-                    <li><a href="">Materials Forming & Machining</a> </li>
-                    <li><a href="">Micro & Nano Machining Technology</a> </li>
-                    <li><a href="">Laser Processing Technology</a> </li>
-                    <li><a href="">Bionic Mechanisms and Bio-manufacturing</a> </li>
-                    <li><a href="">Virtual Manufacturing and Network Manufacturing</a> </li>
-                    <li><a href="">Sustainable Manufacturing Technologies</a> </li>
-                    <li><a href="">Production and Operation Management</a> </li>
+                    <li><a >Supply chain</a> </li>
+                    <li><a >Quality and Information management</a> </li>
+                    <li><a >Human factor</a> </li>
+                    <li><a >Biomechanics and Ergonomics</a> </li>
+                    <li><a >Marketing</a> </li>
+                    <li><a >Operation research</a> </li>
+                    <li><a >Layout planning</a> </li>
+                    <li><a >Reverse Engineering </a> </li>
+                    <li><a >CAD/CAM/CIM</a> </li>
+                    <li><a >Reliability and Risk assessment</a> </li>
+                    <li><a >Robotics and Automation</a> </li>
+                    <li><a >Mechatronics</a> </li>
+                    <li><a >Additive and Green Manufacturing</a> </li>
+                    <li><a >Materials Forming & Machining</a> </li>
+                    <li><a >Micro & Nano Machining Technology</a> </li>
+                    <li><a >Laser Processing Technology</a> </li>
+                    <li><a >Bionic Mechanisms and Bio-manufacturing</a> </li>
+                    <li><a >Virtual Manufacturing and Network Manufacturing</a> </li>
+                    <li><a >Sustainable Manufacturing Technologies</a> </li>
+                    <li><a >Production and Operation Management</a> </li>
                 </ul>
             </li>
             <li id="thermal" onclick="changeClass(this.id)">
                 <a>Thermal And Energy Engineering<img id="thermal-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
                 <ul id="thermal-show" class="display-none" style="list-style: initial; margin-left: 4%;">
-                    <li><a href="">Computational Fluid dynamics</a> </li>
-                    <li><a href="">Automotive and Alternate fuels</a> </li>
-                    <li><a href="">Cryogenics technologies</a> </li>
-                    <li><a href="">Cold Chain Technologies</a> </li>
-                    <li><a href="">Heat – Mass Transfer</a> </li>
-                    <li><a href="">Thermo-fluids</a> </li>
-                    <li><a href="">Energy Conversion Systems</a> </li>
-                    <li><a href="">Renewable Energy Technologies</a> </li>
-                    <li><a href="">Energy and Environment</a> </li>
-                    <li><a href="">Air Conditioning and Refrigeration</a> </li>
-                    <li><a href="">Numerical Methods in Fluid Flow and Heat Transfer</a> </li>
-                    <li><a href="">Transport Phenomena in Porous Media</a> </li>
-                    <li><a href="">Engine Systems: Design and Simulation</a> </li>
-                    <li><a href="">Active and Passive Safety</a> </li>
-                    <li><a href="">Engine Thermodynamics</a> </li>
-                    <li><a href="">Gas Turbines and Gas Dynamics</a> </li>
-                    <li><a href="">IC Engine & Engine Technologies</a></li>
+                    <li><a >Computational Fluid dynamics</a> </li>
+                    <li><a >Automotive and Alternate fuels</a> </li>
+                    <li><a >Cryogenics technologies</a> </li>
+                    <li><a >Cold Chain Technologies</a> </li>
+                    <li><a >Heat – Mass Transfer</a> </li>
+                    <li><a >Thermo-fluids</a> </li>
+                    <li><a >Energy Conversion Systems</a> </li>
+                    <li><a >Renewable Energy Technologies</a> </li>
+                    <li><a >Energy and Environment</a> </li>
+                    <li><a >Air Conditioning and Refrigeration</a> </li>
+                    <li><a >Numerical Methods in Fluid Flow and Heat Transfer</a> </li>
+                    <li><a >Transport Phenomena in Porous Media</a> </li>
+                    <li><a >Engine Systems: Design and Simulation</a> </li>
+                    <li><a >Active and Passive Safety</a> </li>
+                    <li><a >Engine Thermodynamics</a> </li>
+                    <li><a >Gas Turbines and Gas Dynamics</a> </li>
+                    <li><a >IC Engine & Engine Technologies</a></li>
                 </ul>
             </li>
         </ul>
@@ -294,7 +294,7 @@ function home(){
         <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
         <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
         <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-        </br><a href="">See more....</a>
+        </br><a >See more....</a>
     </div>
     `
 
