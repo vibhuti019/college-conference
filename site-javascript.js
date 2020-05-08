@@ -176,9 +176,9 @@ function home(){
 <div class="content-main-site">
     <h3>Welcome</h3>
     <p class="welcome-content">
-        ABES Engineering College, Ghaziabad, one of the pioneer institutions in the field of Engineering, Research and Technology is organizing International Conference on 
+        ABES Engineering College, Ghaziabad, one of the pioneer institutions in the field of Engineering, Research and Technology, is organizing International Conference on 
         <span class="bold-text"> 
-            Futuristic Innovations in Technology and Engineering (FITE)-2020 
+            Futuristic Innovations in Technology and Engineering (FITE)-2020.
         </span>  
         The conference is sponsored by All India Council for Technical Education (AICTE).
         This technical conference aims at providing a platform for industry and academia to discuss various emerging trends and innovations, 
