@@ -6,8 +6,8 @@ function callforpaper(){
     <h3>Submit Full Length Paper</h3>
     <p>Authors are requested to submit full length paper online using 
         the following web link: 
-        <a href="https://easychair.org/account/signin?l=fiEVC7zWzHrJCWWhLENog2#">
-            clickhere
+        <a href="https://easychair.org/my/conference?conf=fite20200#">
+            https://easychair.org/my/conference?conf=fite20200#
         </a>
         <ul class="li-head">
             <li>Please follow the given template for '<a href="./Downloadables/Template_ windows.docm">Windows</a>' and '<a href="./Downloadables/Template_mac.docm">Mac</a>' format for Full Length Paper Submission </li>
