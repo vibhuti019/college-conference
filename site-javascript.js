@@ -288,12 +288,6 @@ function home(){
     </div>
     <div class="Speakers">
         <h1> Speakers </h1>
-        <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-        <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-        <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-        <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-        <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
-        <img src="https://www.amity.edu/flame2020/images/spk1.png" alt="">
         </br><a >See more....</a>
     </div>
     `
