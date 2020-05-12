@@ -55,7 +55,6 @@ p {
 }
 
 
-
 .international-advisory *{
     text-align: justify;
     color: #333;
@@ -74,7 +73,6 @@ p {
     font-size: medium;
     table-layout: fixed;
 }
-
  .international-advisory table td{
     border: 1px solid #ddd;
     padding: 1%;
@@ -91,6 +89,18 @@ p {
 }
 
 
+.bold-commitee{
+    all: unset;
+    font-weight: 550;
+    font-size: medium;
+    color: black;
+}
+.commitee-head{
+    font-size: 180%;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .About-Us{
         width: 100%;
