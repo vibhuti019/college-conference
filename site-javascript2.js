@@ -56,3 +56,105 @@ function callforpaper(){
 </div>
 `
 }
+
+function internationalAdvisory(){
+    elementToChange = document.getElementById("container")
+    elementToChange.innerHTML = `
+    <h3>Internatonal Advisory</h3>
+            <div class="international-advisory" >
+            <table>
+                <tr>
+                    <td>Prof. (Dr.) J. Paulo Davim</td>
+                    <td>Professor</td>
+                    <td>Department of Mechanical Engineering, University of Aveiro, Portugal</td>
+                </tr>
+                <tr>
+                    <td>Prof. (Dr.) Mohammad Affan Badar</td>
+                    <td>Professor</td>
+                    <td>Department of Applied Engineering & Technology Management, Indiana State University, Terre Haute, Indiana, USA</td>
+                </tr>
+                <tr>
+                    <td>Dr. Colbert</td>
+                    <td>Professor</td>
+                    <td>Dennis Seneca College, Canada</td>
+                </tr>
+                <tr>
+                    <td>Dr. Parimita Mohanty</td>
+                    <td>Professor</td>
+                    <td>UNEP, Bangkok</td>
+                </tr>
+                <tr>
+                    <td>Dr. Philip P</td>
+                    <td>Professor</td>
+                    <td>Ermita University of Perpetual Help System DALTA, Philippines</td>
+                </tr>
+                <tr>
+                    <td>Dr. Rakesh Phanden</td>
+                    <td>Professor</td>
+                    <td>Cranfield University, United Kingdom</td>
+                </tr>
+                <tr>
+                    <td>Mr. Sanjeev Jain Raymond</td>
+                    <td>Professor</td>
+                    <td>James Financial, Inc., Florida(US)</td>
+                </tr>
+                <tr>
+                    <td>Dr. Mohammad Affan Badar</td>
+                    <td>Professor</td>
+                    <td>University Of Sharjah,UAE</td>
+                </tr>
+                <tr>
+                    <td>Dr. Saroj Kumar Upadhyay</td>
+                    <td>Professor</td>
+                    <td>National College of Engineering,Nepal</td>
+                </tr>
+                <tr>
+                    <td>Dr. Arvind Tiwari</td>
+                    <td>Professor</td>
+                    <td>Qaseem University, Saudi Arabia</td>
+                </tr>
+                <tr>
+                    <td>Dr. IbraheemNasiruddin,</td>
+                    <td>Professor</td>
+                    <td>QaseemUniversity, SaudiArabia</td>
+                </tr>
+                <tr>
+                    <td>Dr. Andrey Kuzmin</td>
+                    <td>Professor</td>
+                    <td>NAS ,Ukraine</td>
+                </tr>
+                <tr>
+                    <td>Dr. VineshHigher</td>
+                    <td>Professor</td>
+                    <td>College of Technology, MuscatOman</td>
+                </tr>
+                <tr>
+                    <td>Mr. PraveenVaidya</td>
+                    <td>Professor</td>
+                    <td>Pittsburgh Glass Works, Ohio(US)</td>
+                </tr>
+                <tr>
+                    <td>Dr. Kuldeep Ojha</td>
+                    <td>Professor</td>
+                    <td>The University of The West Indies, St</td>
+                </tr>
+                <tr>
+                    <td>Dr. Md. MamunHabib</td>
+                    <td>Professor</td>
+                    <td>BRAC University, Dhaka,Bangladesh</td>
+                </tr>
+                <tr>
+                    <td>Dr.ZahirHasan</td>
+                    <td>Professor</td>
+                    <td>Jazan University KSA ,SaudiArabia</td>
+                </tr>
+                <tr>
+                    <td>Dr. Kannan Govindan</td>
+                    <td>Professor</td>
+                    <td>University of Southern Denmark,Denmark</td>
+                </tr>
+                </table>
+                </div>
+    
+    `
+}
