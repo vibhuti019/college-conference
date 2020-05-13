@@ -60,8 +60,8 @@ function callforpaper(){
 function internationalAdvisory(){
     elementToChange = document.getElementById("container")
     elementToChange.innerHTML = `
-    <h3>Internatonal Advisory</h3>
-            <div class="international-advisory" >
+            <div class="international-advisory">
+            <h3>International Advisory</h3>
             <table>
                 <tr>
                     <td>Prof. (Dr.) J. Paulo Davim</td>
@@ -218,5 +218,251 @@ function organizingCommittee(){
                 Mr. Sharad Bhardwaj</br>
             </br>
             
+    `
+}
+function nationalAdvisory(){
+    elementToChange = document.getElementById("container")
+    elementToChange.innerHTML = `
+    <div id="National-Advisory" class="international-advisory">            
+    <h3>National Advisory</h3>
+    <table>
+    <tr>
+        <td>Dr. Sunil Pandey</td>
+        <td>Professor</td>
+        <td>IIT Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Sanjeev Parashar</td>
+        <td>Professor</td>
+        <td>IIM Raipur</td>
+    </tr>
+    <tr>
+        <td>Dr. Sushil</td>
+        <td>Professor</td>
+        <td>IIT Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Pulak M Pandey</td>
+        <td>Professor</td>
+        <td>IIT Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Akshay Dvivedi</td>
+        <td>Professor</td>
+        <td>IIT Roorkee</td>
+    </tr>
+    <tr>
+        <td>Dr.Himanshu Pathak </td>
+        <td>Professor</td>
+        <td>IIT Mandi</td>
+    </tr>
+    <tr>
+        <td>Dr. G. Bhuvaneswari</td>
+        <td>Professor</td>
+        <td>IIT Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. R.P.Saini</td>
+        <td>Professor</td>
+        <td>IIT Roorkee</td>
+    </tr>
+    <tr>
+        <td>Dr. M.P.Sharma</td>
+        <td>Professor</td>
+        <td>IIT Roorkee</td>
+    </tr>
+    <tr>
+        <td>Dr. Mohd. Shoiab </td>
+        <td>Professor</td>
+        <td>Jamia Millia Islamia Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Aas Mohammad</td>
+        <td>Professor</td>
+        <td>Jamia Millia Islamia Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Rajiv Kumar Garg </td>
+        <td>Professor</td>
+        <td>NIT Arunachal Pradesh</td>
+    </tr>
+    <tr>
+        <td>Dr. S.K. Mohapatra </td>
+        <td>Professor</td>
+        <td>TIET Patiala</td>
+    </tr>
+    <tr>
+        <td>Dr. Pawan Kumar</td>
+        <td>Professor</td>
+        <td>TIET Patiala</td>
+    </tr>
+    <tr>
+        <td>Dr. S.S. Dhami </td>
+        <td>Professor</td>
+        <td>NITTTR Chandigarh</td>
+    </tr>
+    <tr>
+        <td>Dr. Nathi Ram Chauhan</td>
+        <td>Professor</td>
+        <td>IGDTUW New Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Sarabjeet Singh</td>
+        <td>Professor</td>
+        <td>PEC Chandigarh</td>
+    </tr>
+    <tr>
+        <td>Dr. Arvind Sharma</td>
+        <td>Professor</td>
+        <td>KIET Ghaziabad</td>
+    </tr>
+    <tr>
+        <td>Dr. Rishi Asthana</td>
+        <td>Professor</td>
+        <td>IMSEC Ghaziabad</td>
+    </tr>
+    <tr>
+        <td>Dr. Sanjay Gairola</td>
+        <td>Professor</td>
+        <td>NIET Greater Noida</td>
+    </tr>
+    <tr>
+        <td>Dr. Naseem Abidi</td>
+        <td>Professor</td>
+        <td>Skyline Business School Greater Noida</td>
+    </tr>
+    <tr>
+        <td>Dr. Rajesh Kumar</td>
+        <td>Professor</td>
+        <td>NERIST Arunachal Pradesh</td>
+    </tr>
+    <tr>
+        <td>Prof. Dr. Kamal Sharma</td>
+        <td>Professor</td>
+        <td>GLA University</td>
+    </tr>
+    <tr>
+        <td>Dr. P.B. Sharma</td>
+        <td>Professor</td>
+        <td>Ex Vice Chancellor DTU Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. C.V. Gopinath</td>
+        <td>Professor</td>
+        <td>BITS Vizag</td>
+    </tr>
+    <tr>
+        <td>Dr. Anup Kumar</td>
+        <td>Professor</td>
+        <td>IIM Jammu</td>
+    </tr>
+    <tr>
+        <td>Dr. Dixit Garg</td>
+        <td>Professor</td>
+        <td>NIT Kurukshetra</td>
+    </tr>
+    <tr>
+        <td>Dr. S.C. Sharma</td>
+        <td>Professor</td>
+        <td>IIT Roorkee</td>
+    </tr>
+    <tr>
+        <td>Dr. Ashish Agarwal</td>
+        <td>Professor</td>
+        <td>IGNOU New Delhi</td>
+    </tr>
+    <tr>
+        <td>Prof. Dr. Vikas Sharma</td>
+        <td>Professor</td>
+        <td>GLA University</td>
+    </tr>
+    <tr>
+        <td>Dr Arvind Bhardwaj</td>
+        <td>Professor</td>
+        <td>NIT Jalandhar</td>
+    </tr>
+    <tr>
+        <td>Dr. Rohit Mehra</td>
+        <td>Professor</td>
+        <td>NIT Jalandhar</td>
+    </tr>
+    <tr>
+        <td>Dr. Alakesh Manna </td>
+        <td>Professor</td>
+        <td>PEC Chandigarh</td>
+    </tr>
+    <tr>
+        <td>Dr Sanjay Sengupta</td>
+        <td>Professor</td>
+        <td>NISCAIR New Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Apurba Sharma</td>
+        <td>Professor</td>
+        <td>IIT Roorkee</td>
+    </tr>
+    <tr>
+        <td>Dr. Buta Singh</td>
+        <td>Professor</td>
+        <td>MRSPTU Bathinda</td>
+    </tr>
+    <tr>
+        <td>Dr. Prerna Gaur</td>
+        <td>Professor</td>
+        <td>NSIT Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. R.S. Mishra</td>
+        <td>Professor</td>
+        <td>DTU Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr. Nishant Kumar</td>
+        <td>Professor</td>
+        <td>Lucknow University Lucknow</td>
+    </tr>
+    <tr>
+        <td>Mr. Meenu Singhal</td>
+        <td>Professor</td>
+        <td>Schneider Electric India</td>
+    </tr>
+    <tr>
+        <td>Dr Arvind Singh </td>
+        <td>Professor</td>
+        <td>RKGIT Ghaziabad</td>
+    </tr>
+    <tr>
+        <td>Dr. B. P. Singh</td>
+        <td>Professor</td>
+        <td>Delhi School of Professional Studies & Research Delhi</td>
+    </tr>
+    <tr>
+        <td>Dr Aqil Busrail</td>
+        <td>Professor</td>
+        <td>Aquil Busrail Consultants India</td>
+    </tr>
+    <tr>
+        <td>Dr Anubha Vashisht</td>
+        <td>Professor</td>
+        <td>Symbiosis University Noida</td>
+    </tr>
+    <tr>
+        <td>Dr. Debdeep De</td>
+        <td>Professor</td>
+        <td>Price Waterhouse Cooper India</td>
+    </tr>
+    <tr>
+        <td>Dr. B.S. Sikarwar</td>
+        <td>Professor</td>
+        <td>Amity University Noida</td>
+    </tr>
+    <tr>
+        <td>Dr. Ashwani Sharma</td>
+        <td>Professor</td>
+        <td>Kaziranga University Assam</td>
+    </tr>
+    </table>
+    </div>
+
     `
 }
