@@ -67,7 +67,7 @@ function sponsorship(){
                     <div class="color-li">
                         Platinum
                         <span style="display: inline-block; float: right;">
-                            INR 2-3 lacs
+                            INR 2-3 lacs 
                         </span>
                     </div>
                         <ul>
