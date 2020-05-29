@@ -60,22 +60,22 @@
         <div class="navigation-tabs-sponsors">
             <div class="navigation-tabs">
                 <ul>
-                    <li onclick="home()"><a><img src="./icons/Home.png"> Home </a></li>
+                    <li><a href="./index.html"><img src="./icons/Home.png"> Home </a></li>
                     <li><a href="https://www.abes.ac.in/"><img src="./icons/AboutAbesec.png"> About ABES EC </a></li>
-                    <li onclick="callforpaper()"><a><img src="./icons/CallForPapers.png"> Call For Papers </a></li>
+                    <li><a href="./callforpaper.html"><img src="./icons/CallForPapers.png"> Call For Papers </a></li>
                     <li><a ><img src="./icons/Registration.png"> Registration </a></li>
                     <li  id="commitee" onclick="changeClass(this.id)"><a><img src="./icons/Commitee.png"> Commitee <img id="commitee-dropdown" style="display: inline-block; float: right; height: 25px; width: 25px;transform: rotate(0deg);" src="./icons/dropdown.png"></a>
                         <ul id="commitee-show" class="display-none">
-                            <li onclick="organizingCommittee()"><a >Organizing Commitee</a> </li>
-                            <li onclick="nationalAdvisory()"><a >National Advisory</a> </li>
-                            <li onclick="internationalAdvisory()"><a>International Advisory</a> </li>
+                            <li><a href="./organizingComittee.html">Organizing Commitee</a> </li>
+                            <li><a href="./nationalAdvisory.html">National Advisory</a> </li>
+                            <li><a href="./international-advisory.html">International Advisory</a> </li>
                         </ul>
                     </li>
-                    <li onclick="sponsorship()"><a><img src="./icons/Sponsorship.png"> Sponsorship </a></li>
+                    <li><a href="./sponsorship.html"><img src="./icons/Sponsorship.png"> Sponsorship </a></li>
                     <li  id="downloads" onclick="changeClass(this.id)"><a><img src="./icons/Downloads.png"> Downloads <img id="downloads-dropdown" style="display: inline-block; float: right; height: 25px; width: 25px;transform: rotate(0deg);" src="./icons/dropdown.png"></a>
                         <ul id="downloads-show" class="display-none">
                             <li><a >Copyright Form</a> </li>
-                            <li><a >Registration Form</a> </li>
+                            <li><a href="./Downloadables/REGISTRATION FORM.doc">Registration Form</a> </li>
                             <li><a >Template for Full Length Paper</a> </li>
                             <li><a href="./Downloadables/MHA Approval letter.pdf">Political Clearance from MHA</a> </li>
                             <li><a >Poster Format</a> </li>
@@ -91,7 +91,7 @@
                             <li><a >Accomodation</a>  </li>
                         </ul>
                     </li>
-                    <li onclick="contacts()"><a><img src="./icons/Contact.png"> Contact </a></li>
+                    <li><a href="./contacts.html"><img src="./icons/Contact.png"> Contact </a></li>
                 </ul>
             </div>  
             <h1 style="margin: 1%;"> Sponsors </h1>
@@ -103,9 +103,230 @@
 
         <div class="container" id="container">
 
+    <div>
+        <p>
+        <div class="carousel-container">
+            <button class="image-box PrevBtn"><</button>
+            <p id="myimage">
+                    <img src="./convocation-512x380.jpg" alt="" id="image-to-change">
+            </p>
+            <button class="image-box NxtBtn">></button>
+            <div class="image-selector-container"> 
+                <button id="1" class="image-selector" onclick="changeImage()">.</button>
+                <button id="2" class="image-selector-active" onclick="changeImage()">.</button>
+                <button id="3" class="image-selector" onclick="changeImage()">.</button>
+                <button id="4" class="image-selector" onclick="changeImage()">.</button>
+                <button id="5" class="image-selector" onclick="changeImage()">.</button>
+            </div>                   
+        </div>
+        </p>
+    </div>
+    </br>
+    
+    <div class="content-main-site">
+        <h3>Welcome</h3>
+        <p class="welcome-content">
+            ABES Engineering College, Ghaziabad, one of the pioneer institutions in the field of Engineering, Research and Technology, is organizing International Conference on 
+            <span class="bold-text"> 
+                Futuristic Innovations in Technology and Engineering (FITE)-2020.
+            </span>  
+            The conference is sponsored by All India Council for Technical Education (AICTE).
+            This technical conference aims at providing a platform for industry and academia to discuss various emerging trends and innovations, 
+            share research results and new directions in upcoming areas. 
+            FITE -2020 will provide a leading edge, scholarly forum for researchers, engineers, and students alike to share their state-of-the art
+            research and developmental work in the broad areas. 
+            The conference will feature a diverse mixture of interactive forums, core technical sessions of high quality cutting-edge research articles; 
+            targeted workshops on exciting topics; 
+            live demonstrations of pervasive computing in action; insightful keynote speeches;
+            panel discussions from domain experts and posters of emerging ideas and achieve the following:
+            <ul class="main-site-ul">
+                <li>To present the ongoing researches in the field of Engineering and Business and hence to foster research relations between the Universities and the industry.</li>
+                <li>Give participants a review of the latest and upcoming trends in the next few years.</li>
+                <li>Provides an opportunity for researchers, academicians, scientists and professional engineers to present their work, publish their results, exchange ideas and network for scientific and industrial collaborations.</li>
+                <li>Provide the delegates to share their new idea and the application experiences face to face.</li>
+                <li>The conference aims to cover the following areas of business and engineering for sustainable growth but not limited to: 
+                </li>
+            </ul>
+        </p>
+    
+        <!--<h4> Topics Covered </h4>-->
+        <div class="topics-covered">
+            <ul><h3>Topics For FITE 2020</h3>
+                <li id="marketing" onclick="changeClass(this.id)">
+                    <a>Marketing & Strategy<img id="marketing-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="marketing-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Marketing Analytics  </a> </li>
+                        <li><a >Green Marketing & Responsible Consumerism </a> </li>
+                        <li><a >Emerging Trends in Smart Cities </a> </li>
+                        <li><a >Innovating Marketing Communications </a> </li>
+                        <li><a >Strategic CRM </a> </li>
+                        <li><a >Emerging Marketing Practices </a> </li>
+                        <li><a >Green Ecosystem in Emerging Markets </a> </li>
+                        <li><a >Emerging Businesses, Innovation and Ecopreneurship </a> </li>
+                        <li><a >Mobile Marketing & Retargeting </a> </li>
+                        <li><a >E-commerce & E-Biz </a> </li>
+                        <li><a >International and Cross-Cultural Marketing </a> </li>
+                        <li><a >Innovation & New Product Development </a> </li>
+                    </ul>
+                </li>
+                <li id="humanResource" onclick="changeClass(this.id)">
+                    <a>Human Resource Management & Leadership<img id="humanResource-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="humanResource-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >HR 4.0</a> </li>
+                        <li><a >HR Analytics</a> </li>
+                        <li><a >Future of HR</a> </li>
+                        <li><a >Technology for HRM</a> </li>
+                        <li><a >Strategic Human Resource Management</a> </li>
+                        <li><a >Innovative HR Brand Strategies</a> </li>
+                        <li><a >Creating High Performance Workplaces</a> </li>
+                        <li><a >Diversity at Workplace</a> </li>
+                        <li><a >Talent Management</a> </li>
+                        <li><a >Cross Cultural Transition in HRM</a> </li>
+                        <li><a >HR Ethical Issues across Global Business</a> </li>
+                        <li><a >Employee Engagement</a> </li>
+                        <li><a >Employee Experience</a> </li>
+                        <li><a >Gamification in HRM</a> </li>
+                        <li><a >HR Analytics</a> </li>
+                        <li><a >Artificial Intelligence & HRM</a> </li>
+                        <li><a >Technology for L & D</a> </li>
+                    </ul>
+                </li>
 
+                <li id="riskmanagement" onclick="changeClass(this.id)">
+                    <a>Financial and Risk Management<img id="riskmanagement-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="riskmanagement-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Derivatives & Foreign Exchange Rates</a> </li>
+                        <li><a >Portfolio & Funds management</a> </li>
+                        <li><a >International Finance</a> </li>
+                        <li><a >Corporate Restructuring</a> </li>
+                        <li><a >Financial Modelling</a> </li>
+                        <li><a >Infrastructural Finance</a> </li>
+                        <li><a >Behavioral Finance</a> </li>
+                        <li><a >Emerging Trends in Accounting</a> </li>
+                        <li><a >Rethinking Banking and Finance: Money, Market and Models</a> </li>
+                        <li><a >Financial Globalization and Sustainable Finance</a> </li>
+                    </ul>
+                </li>
+
+                <li id="Operation" onclick="changeClass(this.id)">
+                    <a>Operation Management & Information System<img id="Operation-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="Operation-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Integration of Technology with Production System</a> </li>
+                        <li><a >Technology in Manufacturing and Design</a> </li>
+                        <li><a >Software Systems in Manufacturing</a> </li>
+                        <li><a >Automation in Production and Operations</a> </li>
+                        <li><a >Robotics</a> </li>
+                        <li><a >Python</a> </li>
+                        <li><a >Supply chain technology</a> </li>
+                        <li><a >Operation Analytics  </a> </li>
+                    </ul>
+                </li>
+
+                <li id="Innovation" onclick="changeClass(this.id)">
+                    <a>Innovation and Entrepreneurship<img id="Innovation-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="Innovation-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Services </a> </li>
+                        <li><a >Startups </a> </li>
+                        <li><a >Science-technology innovativeness policies</a> </li>
+                        <li><a >Innovativeness and entrepreneurship in education and culture</a> </li>
+                        <li><a >Industrial technologies</a> </li>
+                        <li><a >Leadership and innovation</a> </li>
+                        <li><a >Institutional reforms in ıntellectual economies</a> </li>
+                        <li><a >Sectoral reforms in intellectual reforms</a> </li>
+                        <li><a >E-trade innovativeness and entrepreneurship</a> </li>
+                        <li><a >Ethics and innovativeness</a> </li>
+                    </ul>
+                </li>
+
+                <li id="Microelectronics" onclick="changeClass(this.id)">
+                    <a>Microelectronics and Communication Systems<img id="Microelectronics-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="Microelectronics-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >microprocessor and microcontroller</a> </li>
+                        <li><a >analog and digital circuit design</a> </li>
+                        <li><a >MEMS/NEMS</a> </li>
+                        <li><a >Real time operating systems</a> </li>
+                        <li><a >low power vlsi</a> </li>
+                        <li><a >nanotechnology</a> </li>
+                        <li><a >Modulation & coding</a> </li>
+                        <li><a >Filter Design</a> </li>
+                        <li><a >Network design</a> </li>
+                        <li><a >Analog & Digital signal processing</a> </li>
+                        <li><a >mixed signal processing</a> </li>
+                        <li><a >Image & speech processing</a> </li>
+                        <li><a >antenna & wave propagation</a> </li>
+                        <li><a >microstrip antenna design & app.</a> </li>
+                        <li><a >wideband antenna & app.</a> </li>
+                        <li><a >smart antenna</a> </li>
+                        <li><a >microwave system design & app.</a> </li>
+                        <li><a >optical comm.</a> </li>
+                        <li><a >wireless & mobile comm.</a> </li>
+                        <li><a >5G </a> </li>
+                        <li><a >wireless sensor network</a> </li>
+                        <li><a >MIMO</a> </li>
+                        <li><a >wireless adhoc betwork</a> </li>
+                        <li><a >next generation network</a> </li>
+                    </ul>
+                </li>
+
+                <li id="Power" onclick="changeClass(this.id)">
+                    <a>Power System Planning and Operations<img id="Power-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="Power-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Smart Generation, Transmission & Distribution</a> </li>
+                        <li><a >Transmission System Technologies, Reactive and active power control</a> </li>
+                        <li><a >Power Quality in Transmission and Distribution Networks</a> </li>
+                        <li><a >Power System Planning and Reliability</a> </li>
+                        <li><a >HVDC & FACTS</a> </li>
+                        <li><a >Power System Restructuring</a> </li>
+                        <li><a >Demand Side Management </a> </li>
+                        <li><a >Signal Processing Analytics for Power Systems</a> </li>
+                        <li><a >Data Analytics, AI & IoT for Power Systems</a> </li>
+                        <li><a >Economics & Electricity Markets</a> </li>
+                        <li><a >Smart Grids and Operation </a> </li>
+                        <li><a >Micro, Nano & Pico Grids</a> </li>
+                        <li><a >Renewable Energy - Control and Grid Interaction</a> </li>
+                        <li><a >Distributed Generation and its Control</a> </li>
+                        <li><a >Policy Issues in Distributed Generation</a> </li>
+                        <li><a >Integration of Multiple Energy Sources</a> </li>
+                    </ul>
+                </li>
+
+                <li id="Energy" onclick="changeClass(this.id)">
+                    <a>Power Electronics and Energy Storage<img id="Energy-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="Energy-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Developments in Power Electronics & its Applications</a> </li>
+                        <li><a >Industrial Drives - Converters, Operation and Control</a> </li>
+                        <li><a >Power Converters - Topologies, Modeling and Control</a> </li>
+                        <li><a >EV Applications, Fast Charging Methods and Standards</a> </li>
+                        <li><a >Battery Management Systems, Battery Engineering, Battery use and reuse, </a> </li>
+                        <li><a >G2V and V2G and other Transport Applications</a> </li>
+                        <li><a >Modeling, Analysis and Design of Rotating and Linear Machines and Electromagnetic Devices</a> </li>
+                        <li><a >EMI - EMI and EMC issues in Power Electronic System Design and Packaging, Methods of Analysis and Filters</a> </li>
+                    </ul>
+                </li>
+
+                <li id="Instrumentation" onclick="changeClass(this.id)">
+                    <a>Instrumentation, Control and Automation<img id="Instrumentation-dropdown" style="display: inline-block; float: right; height: 20px; width: 20px;transform: rotate(0deg);" src="./icons/dropdown-color.png"><div id="clear" style="clear:both"></div></a>
+                    <ul id="Instrumentation-show" class="display-none" style="list-style: initial; margin-left: 4%;">
+                        <li><a >Recent Developments and Challenges in Automation and Control</a> </li>
+                        <li><a >Control & Automation Applications to Power Systems</a> </li>
+                        <li><a >Optimal control, Robust control, Intelligent control and Adaptive Control</a> </li>
+                        <li><a >Analytical and Virtual Instrumentation</a> </li>
+                        <li><a >Intelligent Process Control</a> </li>
+                        <li><a >Industrial and Biomedical Instrumentation</a> </li>
+                        <li><a >Industrial Automation and Robotics</a> </li>
+                        <li><a >Home Automation & Smart Buildings</a> </li>
+                        <li><a >Substation Automation</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="Speakers">
+            <h1> Speakers </h1>
+            </br><a >See more....</a>
         </div>
 
+        </div>
+</div>
 
 
 
@@ -132,10 +353,10 @@
 
         <div class="Quick-Links">
             <h1>Quick Links</h1>
-            <a >Home</a></br>
-            <a >About Abesec</a></br>
-            <a >Call For Paper</a></br>
-            <a >Registration</a></br>
+            <a href="./home.html">Home</a></br>
+            <a href="./about.html">About Abesec</a></br>
+            <a href="./callforpaper.html">Call For Paper</a></br>
+            <a href="./registration.html">Registration</a></br>
         </div>
 
         <div class="Connect-Us">
@@ -145,7 +366,7 @@
             <a><img src="./facebook-3-xxl.png" alt=""></a>
             <a><img src="./facebook-3-xxl.png" alt=""></a>
         </div>
-        <p class="CopyRight">Copyright 2020 &emsp;&emsp; Vibhuti Singh,ABES Engineering College, Ghaziabad. &emsp;&emsp; All Rights Reserved</p>
+        <p class="CopyRight">Copyright 2020 &emsp;&emsp; <a style="color: inherit;" href="https://www.linkedin.com/in/vibhuti-singh-8b08a7191/">Vibhuti Singh,ABES Engineering College, Ghaziabad.</a> &emsp;&emsp; All Rights Reserved</p>
     </div>
     
     
